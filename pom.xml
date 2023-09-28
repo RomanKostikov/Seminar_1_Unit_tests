@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.example</groupId>
+    <artifactId>Seminar_1</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <properties>
+        <maven.compiler.source>19</maven.compiler.source>
+        <maven.compiler.target>19</maven.compiler.target>
+
+
+    </properties>
+    <!-- Создайте новый проект Maven:-->
+    <!-- Вы можете использовать команду Maven для
+    создания нового проекта или создать его с помощью
+    IDE (например, IntelliJ IDEA или Eclipse).-->
+    <dependencies>
+        <!-- Другие зависимости -->
+        <!-- AssertJ предоставляет множество методов для
+        более сложных проверок,-->
+        <dependency>
+            <groupId>org.assertj</groupId>
+            <artifactId>assertj-core</artifactId>
+            <version>3.21.0</version> <!-- Укажите актуальную версию AssertJ -->
+            <scope>test</scope>
+        </dependency>
+        <!-- Да, для использования JUnit Jupiter (JUnit 5)
+в ваших тестах в Java необходимо добавить соответствующую
+зависимость в файл pom.xml. JUnit Jupiter - это фреймворк
+для написания тестов в Java.-->
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-engine</artifactId>
+            <version>5.8.0</version> <!-- Укажите актуальную версию JUnit Jupiter -->
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+</project>
